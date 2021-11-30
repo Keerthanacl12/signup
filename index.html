@@ -218,15 +218,7 @@ button:focus {
 	</style>
 	
 	
-	<script>
-function validateForm() {
-  var x = document.forms["myForm"]["fname"].value;
-  if (x == "" || x == null) {
-    alert("Name must be filled out");
-    return false;
-  }
-}
-</script>
+
 	
 	
 	
@@ -246,7 +238,7 @@ function validateForm() {
 
       </div>
       <div class='spacing'>or continue with <span class='highlight'>Google</span></div>
-      <div><form name="myForm" action="/action_page.php" onsubmit="return validateForm()" method="post" required><button class='ghost-round full-width'>Signup</button></form></div>
+      <div><button class='ghost-round full-width'>Signup</button></div>
 		
 	
 
